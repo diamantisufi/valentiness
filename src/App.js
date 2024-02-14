@@ -46,7 +46,7 @@ function App() {
 
   if (noPressed) {
     return (
-      <div className="overflow-auto flex flex-col items-center justify-center pt-4 h-screen selection:bg-rose-600 selection:text-white text-zinc-900">
+      <div className="overflow-auto flex flex-col items-center justify-center pt-20 h-full selection:bg-rose-600 selection:text-white text-zinc-900">
         <div className="text-4xl md:text-6xl font-bold my-4">Gjendje</div>
         <img src={stresi} alt="gjendje" width={500} />
 
@@ -61,7 +61,7 @@ function App() {
   }
 
   return (
-    <div className="overflow-auto flex flex-col items-center justify-center pt-4 h-screen selection:bg-rose-600 selection:text-white text-zinc-900">
+    <div className="overflow-auto flex flex-col items-center justify-center pt-40 h-full selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
           <img
