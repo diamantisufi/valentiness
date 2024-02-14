@@ -1,6 +1,5 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
 import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
 import pesuja from "./assets/pesuja.png";
 import pesujamantuja from "./assets/pesujamantuja.png";
@@ -47,7 +46,7 @@ function App() {
 
   if (noPressed) {
     return (
-      <div className="pt-40 h-full overflow-auto flex flex-col items-center justify-center pt-4 h-screen selection:bg-rose-600 selection:text-white text-zinc-900">
+      <div className="overflow-auto flex flex-col items-center justify-center pt-4 h-screen selection:bg-rose-600 selection:text-white text-zinc-900">
         <div className="text-4xl md:text-6xl font-bold my-4">Gjendje</div>
         <img src={stresi} alt="gjendje" width={500} />
 
@@ -62,10 +61,13 @@ function App() {
   }
 
   return (
-    <div className=" pt-40 h-full overflow-auto flex flex-col items-center justify-center pt-4 h-screen selection:bg-rose-600 selection:text-white text-zinc-900">
+    <div className="overflow-auto flex flex-col items-center justify-center pt-4 h-screen selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+          <img
+            src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
+            alt="gif"
+          />
           <div className="text-4xl md:text-6xl font-bold my-4">
             GG babyyyyy!!
           </div>
@@ -84,6 +86,7 @@ function App() {
             <img
               src={lovesvg2}
               className="fixed bottom-16 -z-10 animate-pulse md:right-24 right-10 md:w-40 w-32"
+              alt="gif"
             />
           </div>
 
