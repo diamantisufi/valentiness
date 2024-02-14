@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3f89e229.css",
-    "main.js": "/static/js/main.655330b9.js",
+    "main.js": "/static/js/main.9c38346f.js",
     "static/js/592.d287951a.chunk.js": "/static/js/592.d287951a.chunk.js",
     "static/media/pesuja.png": "/static/media/pesuja.7e201bcf853a193c611b.png",
     "static/media/pesujamantuja.png": "/static/media/pesujamantuja.b30fefb1f580e480d490.png",
@@ -10,11 +10,11 @@
     "static/media/Love In The Air SVG Cut File.svg": "/static/media/Love In The Air SVG Cut File.f9872626e64b1ebdd0ed6d27809a88a6.svg",
     "index.html": "/index.html",
     "main.3f89e229.css.map": "/static/css/main.3f89e229.css.map",
-    "main.655330b9.js.map": "/static/js/main.655330b9.js.map",
+    "main.9c38346f.js.map": "/static/js/main.9c38346f.js.map",
     "592.d287951a.chunk.js.map": "/static/js/592.d287951a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f89e229.css",
-    "static/js/main.655330b9.js"
+    "static/js/main.9c38346f.js"
   ]
 }
